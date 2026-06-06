@@ -1,0 +1,70 @@
+.class public final Lnet/bienvenido/mundo/sdk/internal/上网看看你妈跟你爹我做爱的视频吧你妈活真鸡巴好;
+.super Lnet/bienvenido/mundo/sdk/internal/MethodHookBase;
+.source "\u4e0a\u7f51\u770b\u770b\u4f60\u5988\u8ddf\u4f60\u7239\u6211\u505a\u7231\u7684\u89c6\u9891\u5427\u4f60\u5988\u6d3b\u771f\u9e21\u5df4\u597d.java"
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 7
+    invoke-direct {p0}, Lnet/bienvenido/mundo/sdk/internal/MethodHookBase;-><init>()V
+
+    return-void
+.end method
+
+.method public static final 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰([Ljava/lang/Object;Ltop/bienvenido/date_24323/y;)[Landroid/accounts/Account;
+    .registers 3
+
+    const/4 v0, 0x0
+
+    .line 25
+    aget-object p0, p0, v0
+
+    if-eqz p0, :cond_a
+
+    .line 26
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_b
+
+    :cond_a
+    const/4 p0, 0x0
+
+    :goto_b
+    invoke-interface {p1, p0}, Ltop/bienvenido/date_24323/y;->我在操你妈的同时给你妈的下体画了一幅清明上河图这使得你妈的卖逼事业在文学界也有了一定的名气你婊子妈让自己的逼沾上了文学的气息以后嫖客操你妈时还能增长文化(Ljava/lang/String;)[Landroid/accounts/Account;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 4
+
+    .line 10
+    sget-object p1, Lnet/bienvenido/mundo/sdk/internal/MundoAccountManagerServiceProxy;->你妈今晚去偷电线杆子你爸去找电箱之后结合疯狂爆电让后在拿电线杆子ziwei完事还要去加油站在自己piyan和逼里灌油拿着打火机狂撩自己把自己变成内燃机:Lnet/bienvenido/mundo/sdk/internal/MundoAccountManagerServiceProxy;
+
+    new-instance p2, Lnet/bienvenido/mundo/sdk/internal/上网看看你妈跟你爹我做爱的视频吧你妈活真鸡巴好$1;
+
+    invoke-direct {p2, p0, p3}, Lnet/bienvenido/mundo/sdk/internal/上网看看你妈跟你爹我做爱的视频吧你妈活真鸡巴好$1;-><init>(Lnet/bienvenido/mundo/sdk/internal/上网看看你妈跟你爹我做爱的视频吧你妈活真鸡巴好;[Ljava/lang/Object;)V
+
+    invoke-virtual {p1, p2}, Lnet/bienvenido/mundo/sdk/internal/MundoAccountManagerServiceProxy;->狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰(Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, [Landroid/accounts/Account;
+
+    if-nez p1, :cond_12
+
+    const/4 p1, 0x0
+
+    new-array p1, p1, [Landroid/accounts/Account;
+
+    :cond_12
+    return-object p1
+.end method

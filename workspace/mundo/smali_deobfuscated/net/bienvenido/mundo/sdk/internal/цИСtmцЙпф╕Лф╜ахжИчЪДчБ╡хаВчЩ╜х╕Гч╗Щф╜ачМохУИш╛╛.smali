@@ -1,0 +1,68 @@
+.class public final Lnet/bienvenido/mundo/sdk/internal/我tm扯下你妈的灵堂白布给你献哈达;
+.super Lnet/bienvenido/mundo/sdk/internal/MethodHookBase;
+.source "\u6211tm\u626f\u4e0b\u4f60\u5988\u7684\u7075\u5802\u767d\u5e03\u7ed9\u4f60\u732e\u54c8\u8fbe.java"
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .line 7
+    invoke-direct {p0}, Lnet/bienvenido/mundo/sdk/internal/MethodHookBase;-><init>()V
+
+    return-void
+.end method
+
+.method public static final 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰([Ljava/lang/Object;Ltop/bienvenido/date_24323/y;)Ljava/lang/String;
+    .registers 4
+
+    const/4 v0, 0x0
+
+    .line 20
+    aget-object v0, p0, v0
+
+    check-cast v0, Landroid/accounts/Account;
+
+    const/4 v1, 0x1
+
+    .line 21
+    aget-object p0, p0, v1
+
+    if-eqz p0, :cond_f
+
+    .line 22
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_10
+
+    :cond_f
+    const/4 p0, 0x0
+
+    :goto_10
+    invoke-interface {p1, v0, p0}, Ltop/bienvenido/date_24323/y;->我要送你妈一朵花哈哈哈开玩笑的我哪来的花你哪来的妈(Landroid/accounts/Account;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 4
+
+    .line 10
+    sget-object p1, Lnet/bienvenido/mundo/sdk/internal/MundoAccountManagerServiceProxy;->你妈今晚去偷电线杆子你爸去找电箱之后结合疯狂爆电让后在拿电线杆子ziwei完事还要去加油站在自己piyan和逼里灌油拿着打火机狂撩自己把自己变成内燃机:Lnet/bienvenido/mundo/sdk/internal/MundoAccountManagerServiceProxy;
+
+    new-instance p2, Lnet/bienvenido/mundo/sdk/internal/我tm扯下你妈的灵堂白布给你献哈达$1;
+
+    invoke-direct {p2, p0, p3}, Lnet/bienvenido/mundo/sdk/internal/我tm扯下你妈的灵堂白布给你献哈达$1;-><init>(Lnet/bienvenido/mundo/sdk/internal/我tm扯下你妈的灵堂白布给你献哈达;[Ljava/lang/Object;)V
+
+    invoke-virtual {p1, p2}, Lnet/bienvenido/mundo/sdk/internal/MundoAccountManagerServiceProxy;->狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰(Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

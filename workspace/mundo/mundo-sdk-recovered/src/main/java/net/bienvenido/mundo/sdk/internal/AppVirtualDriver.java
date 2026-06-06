@@ -1,0 +1,36 @@
+package net.bienvenido.mundo.sdk.internal;
+
+import android.nfc.NfcAdapter;
+import java.lang.reflect.Field;
+
+public final class AppVirtualDriver extends 我是月黑风高偷你妈棺材钱的爹 {
+
+    
+    public static final AppVirtualDriver f191 = new AppVirtualDriver();
+
+    
+    public final void m241() {
+        FieldAccessor q2Var;
+        NfcAdapter defaultAdapter = NfcAdapter.getDefaultAdapter(MundoGlobalContext.hostContext);
+        if (defaultAdapter == null) {
+            return;
+        }
+        try {
+            Field declaredField = NfcAdapter.class.getDeclaredField("sService");
+            declaredField.setAccessible(true);
+            q2Var = ((declaredField.getModifiers() & 8) != 0 || declaredField.getType().isPrimitive()) ? new StaticFieldAccessor(declaredField) : new InstanceFieldAccessor(UnsafeAccess.unsafeInstance.objectFieldOffset(declaredField));
+        } catch (Exception e) {
+            q2Var = FieldAccessor.f328;
+        }
+        Object obj = q2Var.getField(defaultAdapter);
+        if (obj == null) {
+            return;
+        }
+        this.ProcessCallbackWrapper = MethodParameterDefaults.factory;
+        ServiceInvocationHandler a1Var = ProcessCallbackWrapper("nfc", obj);
+        if (a1Var == null) {
+            return;
+        }
+        q2Var.setField((Object) null, a1Var.proxyObject);
+    }
+}

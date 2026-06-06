@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_app">Добавить приложение</string>
+    <string name="app_installer_label">Добавить в VirtualXposed</string>
+</resources>

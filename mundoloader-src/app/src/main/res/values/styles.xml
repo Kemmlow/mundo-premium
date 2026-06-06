@@ -1,0 +1,20 @@
+<resources>
+    
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/blue_primary</item>
+        
+        <item name="android:windowBackground">@color/bg_main</item>
+        <item name="android:statusBarColor">@color/blue_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
