@@ -1,2 +1,0 @@
-[run]
-omit=*/tests/*,paranoid_deobfuscator/__main__.py,paranoid_deobfuscator/commands/*

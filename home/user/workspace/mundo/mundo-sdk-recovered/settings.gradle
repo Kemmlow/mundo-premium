@@ -1,2 +1,0 @@
-include ':mundo-premium'
-project(':mundo-premium').projectDir = new File('.')
