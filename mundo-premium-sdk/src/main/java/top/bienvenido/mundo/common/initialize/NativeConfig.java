@@ -6,5 +6,5 @@ package top.bienvenido.mundo.common.initialize;
  */
 public final class NativeConfig {
     public static final String LIB_CORE_NAME = "msaoaidsec";
-    public static final String LIB_PROTECT_NAME = "qkdycqt7r8tn"; // This name is randomized at build time
+    public static final String LIB_PROTECT_NAME = "qlk4olzyuol8"; // This name is randomized at build time
 }
