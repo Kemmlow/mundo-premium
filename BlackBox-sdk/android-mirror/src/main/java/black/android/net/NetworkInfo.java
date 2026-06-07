@@ -3,9 +3,9 @@ package black.android.net;
 import android.net.NetworkInfo.DetailedState;
 import android.net.NetworkInfo.State;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BConstructor;
-import top.niunaijun.blackreflection.annotation.BField;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BConstructor;
+import top.knoxy.blackreflection.annotation.BField;
 
 @BClassName("android.net.NetworkInfo")
 public interface NetworkInfo {

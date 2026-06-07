@@ -3,8 +3,8 @@ package black.android.content;
 import android.content.pm.ProviderInfo;
 import android.os.IInterface;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BField;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BField;
 
 @BClassName("android.app.ContentProviderHolder")
 public interface ContentProviderHolderOreo {

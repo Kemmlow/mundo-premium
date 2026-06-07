@@ -3,8 +3,8 @@ package black.android.app.servertransaction;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BField;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BField;
 
 @BClassName("android.app.servertransaction.LaunchActivityItem")
 public interface LaunchActivityItem {

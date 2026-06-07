@@ -8,52 +8,52 @@ android {
     buildToolsVersion "29.0.2"
 
     defaultConfig {
-        applicationId "top.niunaijun.blackboxa"
+        applicationId "dev.knoxy.corea"
         minSdkVersion 21
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 12
         versionName "2.1.0"
 
-        flavorDimensions "BlackBox32"
+        flavorDimensions "KnoxyCore32"
     }
 
     productFlavors {
-        BlackBox32 {
-            applicationId "top.niunaijun.blackboxa32"
+        KnoxyCore32 {
+            applicationId "dev.knoxy.corea32"
             ndk {
                 abiFilters "armeabi-v7a"
             }
-            resValue "string", "app_name", "BlackBox32"
+            resValue "string", "app_name", "KnoxyCore32"
             manifestPlaceholders = [APP_ICON      : "@mipmap/ic_launcher",
                                     APP_ROUND_ICON: "@mipmap/ic_launcher_round"]
         }
 
-        BlackBox64 {
-            applicationId "top.niunaijun.blackboxa64"
+        KnoxyCore64 {
+            applicationId "dev.knoxy.corea64"
             ndk {
                 abiFilters "arm64-v8a"
             }
-            resValue "string", "app_name", "BlackBox64"
+            resValue "string", "app_name", "KnoxyCore64"
             manifestPlaceholders = [APP_ICON      : "@mipmap/ic_launcher",
                                     APP_ROUND_ICON: "@mipmap/ic_launcher_round"]
         }
 
-        BlackBox32Beta {
-            applicationId "top.niunaijun.blackboxa32_beta"
+        KnoxyCore32Beta {
+            applicationId "dev.knoxy.corea32_beta"
             ndk {
                 abiFilters "armeabi-v7a"
             }
-            resValue "string", "app_name", "BlackBox32 Beta"
+            resValue "string", "app_name", "KnoxyCore32 Beta"
             manifestPlaceholders = [APP_ICON      : "@mipmap/ic_launcher_beta",
                                     APP_ROUND_ICON: "@mipmap/ic_launcher_round_beta"]
         }
 
-        BlackBox64Beta {
-            applicationId "top.niunaijun.blackboxa64_beta"
+        KnoxyCore64Beta {
+            applicationId "dev.knoxy.corea64_beta"
             ndk {
                 abiFilters "arm64-v8a"
             }
-            resValue "string", "app_name", "BlackBox64 Beta"
+            resValue "string", "app_name", "KnoxyCore64 Beta"
             manifestPlaceholders = [APP_ICON      : "@mipmap/ic_launcher_round_beta",
                                     APP_ROUND_ICON: "@mipmap/ic_launcher_round_beta"]
         }
@@ -123,7 +123,7 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
-    implementation project(':Bcore')
+    implementation project(':Knoxycore')
 
     //android
     implementation 'com.google.android.material:material:1.3.0'

@@ -3,8 +3,8 @@ package black.android.content.pm;
 
 import android.content.pm.PackageParser;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BStaticMethod;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BStaticMethod;
 
 @BClassName("android.content.pm.PackageParser")
 public interface PackageParserPie {

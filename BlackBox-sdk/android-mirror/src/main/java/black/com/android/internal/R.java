@@ -1,8 +1,8 @@
 package black.com.android.internal;
 
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BStaticField;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BStaticField;
 
 @BClassName("com.android.internal.R")
 public interface R {

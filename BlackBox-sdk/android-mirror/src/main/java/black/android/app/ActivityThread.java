@@ -15,13 +15,13 @@ import android.os.IInterface;
 import java.util.List;
 import java.util.Map;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BConstructor;
-import top.niunaijun.blackreflection.annotation.BField;
-import top.niunaijun.blackreflection.annotation.BMethod;
-import top.niunaijun.blackreflection.annotation.BParamClassName;
-import top.niunaijun.blackreflection.annotation.BStaticField;
-import top.niunaijun.blackreflection.annotation.BStaticMethod;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BConstructor;
+import top.knoxy.blackreflection.annotation.BField;
+import top.knoxy.blackreflection.annotation.BMethod;
+import top.knoxy.blackreflection.annotation.BParamClassName;
+import top.knoxy.blackreflection.annotation.BStaticField;
+import top.knoxy.blackreflection.annotation.BStaticMethod;
 
 @BClassName("android.app.ActivityThread")
 public interface ActivityThread {

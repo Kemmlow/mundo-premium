@@ -1,10 +1,10 @@
 package black.android.graphics;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BStaticMethod;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BStaticMethod;
 
 /**
- * Created by BlackBox on 2022/2/24.
+ * Created by KnoxyCore on 2022/2/24.
  */
 @BClassName("android.graphics.Compatibility")
 public interface Compatibility {
