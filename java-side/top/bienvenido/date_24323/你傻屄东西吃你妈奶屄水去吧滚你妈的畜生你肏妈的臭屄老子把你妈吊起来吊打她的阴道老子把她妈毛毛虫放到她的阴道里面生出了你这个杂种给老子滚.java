@@ -1,0 +1,33 @@
+package top.bienvenido.date_24323;
+
+import android.accounts.Account;
+import android.os.IInterface;
+import java.lang.reflect.Method;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+public final class 你傻屄东西吃你妈奶屄水去吧滚你妈的畜生你肏妈的臭屄老子把你妈吊起来吊打她的阴道老子把她妈毛毛虫放到她的阴道里面生出了你这个杂种给老子滚 extends a2 {
+   @Override
+   public final Object ____________________________________________/* $VF was: 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰 */(
+      Object obj, Method method, final Object[] objArr
+   ) {
+      return m3.你妈今晚去偷电线杆子你爸去找电箱之后结合疯狂爆电让后在拿电线杆子ziwei完事还要去加油站在自己piyan和逼里灌油拿着打火机狂撩自己把自己变成内燃机
+         .____________________________________________/* $VF was: 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰 */(
+            new Function1() {
+               public final Object invoke(Object obj2) {
+                  return 你傻屄东西吃你妈奶屄水去吧滚你妈的畜生你肏妈的臭屄老子把你妈吊起来吊打她的阴道老子把她妈毛毛虫放到她的阴道里面生出了你这个杂种给老子滚.____________________________________________/* $VF was: 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰 */(
+                     objArr, (y)obj2
+                  );
+               }
+            }
+         );
+   }
+
+   public static final Unit ____________________________________________/* $VF was: 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰 */(Object[] objArr, y yVar) {
+      IInterface iInterface = (IInterface)objArr[0];
+      yVar.____________________________________________/* $VF was: 狂犬疫苗忘了给你妈打不好意思让它到处咬人才会生出你这种上缺脑子下缺逼火葬场都不收的烂骨灰 */(
+         iInterface != null ? iInterface.asBinder() : null, (Account)objArr[1], (String[])objArr[2]
+      );
+      return Unit.INSTANCE;
+   }
+}
