@@ -1,10 +1,10 @@
-include ':Bcore'
+include ':Knoxycore'
 include ':app'
-include ':Bcore:black-fake'
-include ':Bcore:black-hook'
-include ':Bcore:pine-xposed'
-include ':Bcore:pine-core'
-include ':Bcore:pine-xposed-res'
+include ':Knoxycore:black-fake'
+include ':Knoxycore:black-hook'
+include ':Knoxycore:pine-xposed'
+include ':Knoxycore:pine-core'
+include ':Knoxycore:pine-xposed-res'
 include ':android-mirror'
 
-rootProject.name = "BlackBox"
+rootProject.name = "KnoxyCore"

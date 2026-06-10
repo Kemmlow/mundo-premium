@@ -4,10 +4,10 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BField;
-import top.niunaijun.blackreflection.annotation.BMethod;
-import top.niunaijun.blackreflection.annotation.BStaticMethod;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BField;
+import top.knoxy.blackreflection.annotation.BMethod;
+import top.knoxy.blackreflection.annotation.BStaticMethod;
 
 @BClassName("android.app.ContextImpl")
 public interface ContextImpl {

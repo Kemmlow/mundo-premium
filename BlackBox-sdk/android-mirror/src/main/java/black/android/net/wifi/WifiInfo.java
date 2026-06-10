@@ -4,9 +4,9 @@ import android.net.wifi.SupplicantState;
 
 import java.net.InetAddress;
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BConstructor;
-import top.niunaijun.blackreflection.annotation.BField;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BConstructor;
+import top.knoxy.blackreflection.annotation.BField;
 
 @BClassName("android.net.wifi.WifiInfo")
 public interface WifiInfo {

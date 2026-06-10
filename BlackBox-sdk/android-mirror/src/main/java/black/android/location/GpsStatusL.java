@@ -1,8 +1,8 @@
 package black.android.location;
 
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BMethod;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BMethod;
 
 @BClassName("android.location.GpsStatus")
 public interface GpsStatusL {

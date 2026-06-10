@@ -1,8 +1,8 @@
 package black.android.content;
 
 
-import top.niunaijun.blackreflection.annotation.BClassName;
-import top.niunaijun.blackreflection.annotation.BField;
+import top.knoxy.blackreflection.annotation.BClassName;
+import top.knoxy.blackreflection.annotation.BField;
 
 @BClassName("android.content.PeriodicSync")
 public interface PeriodicSync {
